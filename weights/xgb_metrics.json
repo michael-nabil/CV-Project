@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.9650599336903851,
+  "f1_weighted": 0.965084687607814,
+  "best_iteration": 299,
+  "num_classes": 43,
+  "feature_dim": 2276
+}
