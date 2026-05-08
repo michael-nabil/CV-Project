@@ -24,13 +24,13 @@ from core.utils import draw_bbox
 
 
 detector = YOLODetector(
-    weights="weights/yolo.pt",
+    weights="weights/yolo_best.pt",
 )
 
 classifier = XGBClassifier(
-    model_path="weights/xgb.pkl",
-    scaler_path="weights/scaler.pkl",
-    encoder_path="weights/encoder.pkl",
+    model_path="weights/xgb_model.pkl",
+    scaler_path="weights/xgb_scaler.pkl",
+    encoder_path="weights/xgb_label_encoder.pkl",
 )
 
 preprocessor = ImagePreprocessor(
