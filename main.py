@@ -1,4 +1,5 @@
 import cv2
+from sympy import false
 
 from preprocessing.preprocessor import (
     ImagePreprocessor,
@@ -40,7 +41,6 @@ preprocessor = ImagePreprocessor(
 extractor = FeatureExtractor(
     use_hog=True,
     use_hsv=True,
-    use_sift=True,
 )
 
 pipeline = Pipeline(

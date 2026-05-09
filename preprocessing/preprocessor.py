@@ -40,10 +40,7 @@ class ImagePreprocessor:
 
         return out
 
-    # =====================================================
-    # OPERATIONS
-    # =====================================================
-
+    
     def gaussian_blur(self, image):
 
         k = self._ensure_odd(
